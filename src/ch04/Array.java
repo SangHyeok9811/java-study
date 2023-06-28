@@ -39,7 +39,7 @@ public class Array {
         // 배열의 크기를 나중에 정하기
         int [] numbers3;
         //...
-        // 배열 크기가 초기화 되기전에 참조하면 에러
+        // 배열 크기가 초기화 되기전에 참조하면 에러 난다.
         // System.out.println(numbers3[0])
         // 배열 크기가 초기화, 숫자는 0 기반으로 초기화 된다.
         numbers3 = new int[3];
